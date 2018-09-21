@@ -268,9 +268,9 @@ a:hover, a:active {
 
 @media screen and (min-width: 992px) {
     .site-navigation {
-        position: relative;
-        top: auto;
-        right: auto;
+        position: fixed;
+        top: 19px;
+        left: -459px;
         height: auto;
         background: transparent;
     }
@@ -300,13 +300,16 @@ a:hover, a:active {
 --------------------------------*/
 .site-header .buy-tickets {
     margin-right: 45px;
+    position: fixed;
     text-align: right;
+    right: 15px;
 }
 
 .site-header .buy-tickets .btn,
 .hero-slider .btn {
     padding: 16px 46px;
     border: 2px solid #fff;
+
 }
 
 /*--------------------------------------------------------------
@@ -464,7 +467,7 @@ a:hover, a:active {
     .hero-slider .entry-title {
         font-size: 72px;
     }
-
+    
     .countdown-holder {
         margin-right: 52px;
         font-size: 60px;
